@@ -1,0 +1,28 @@
+{
+  "name": "vue-modules",
+  "version": "0.0.1",
+  "description": "Modularisation for Vue",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhoermann/vue-modules.git"
+  },
+  "keywords": [
+    "vue",
+    "module",
+    "modules",
+    "modularisation"
+  ],
+  "author": "Jochen Hörmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhoermann/vue-modules/issues"
+  },
+  "homepage": "https://github.com/jhoermann/vue-modules#readme",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
