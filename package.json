@@ -4,7 +4,8 @@
   "description": "Modularisation for Vue",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc --project tsconfig.json"
+    "build": "tsc",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,9 @@
   },
   "homepage": "https://github.com/jhoermann/vue-modules#readme",
   "devDependencies": {
+    "@types/jest": "^29.2.3",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
     "typescript": "^4.9.3"
   }
 }
