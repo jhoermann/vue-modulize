@@ -1,4 +1,4 @@
-import { modules, registerModule } from '../'
+import { modules, registerModules } from '../'
 import { moduleMock } from '../__mocks__/module.mock'
 
 describe('modules', () => {
@@ -9,8 +9,12 @@ describe('modules', () => {
 
 describe('registerModule', () => {
   it('should add a module to the modules array', () => {
-    registerModule(moduleMock)
+    registerModules([moduleMock])
 
     expect(modules[0]).toBe(moduleMock)
+  })
+
+  it('throws an exeption if a module is already registered', () => {
+    expect(() => registerModules([moduleMock, moduleMock])).toThrowError('vue-modulize: Module already registered')
   })
 })

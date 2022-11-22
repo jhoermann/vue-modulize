@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Modularisation for Vue",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
     "lint": "eslint .",
@@ -13,6 +14,9 @@
     "type": "git",
     "url": "git+https://github.com/jhoermann/vue-modules.git"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "vue",
     "module",
