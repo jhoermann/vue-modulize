@@ -4,7 +4,7 @@
   "description": "Modularisation for Vue",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --project tsconfig.build.json",
     "test": "jest"
   },
   "repository": {
