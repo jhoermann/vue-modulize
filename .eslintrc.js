@@ -40,6 +40,7 @@ module.exports = {
     'eqeqeq': 'error',
     'dot-notation': 'error',
     'prefer-template': 'warn',
+    '@typescript-eslint/consistent-type-imports': ['warn'],
   },
   ignorePatterns: [
       '**/*.json',
