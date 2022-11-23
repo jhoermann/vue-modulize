@@ -7,8 +7,9 @@
 ## Usage
 **Register the modules**
 ```ts
+import exampleModule from 'modules/example-module' // Module definition for example module
 import { registerModules } from 'vue-modulize'
-registerModules([moduleDefinition])
+registerModules([exampleModule])
 ```
 Keep in mind that modules can't be registered twice.
 
