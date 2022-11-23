@@ -35,7 +35,7 @@ describe('vue-modulize', () => {
   })
 
   describe('useModules', () => {
-    it('returnes modules to be used', () => {
+    it('returns modules to be used', () => {
       registerModules([moduleMock])
 
       expect(useModules(['mock-module'])).toStrictEqual({
@@ -43,7 +43,7 @@ describe('vue-modulize', () => {
       })
     })
 
-    it('should an exception if a non registered module should be used', () => {
+    it('should throw an exception if a non registered module should be used', () => {
       expect(() => useModules(['mock-module'])).toThrowError('vue-modulize: module "mock-module" is not registered')
     })
   })
