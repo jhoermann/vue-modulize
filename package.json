@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhoermann/vue-modules.git"
+    "url": "git+https://github.com/jhoermann/vue-modulize.git"
   },
   "files": [
     "dist"
@@ -26,9 +26,9 @@
   "author": "Jochen Hörmann",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jhoermann/vue-modules/issues"
+    "url": "https://github.com/jhoermann/vue-modulize/issues"
   },
-  "homepage": "https://github.com/jhoermann/vue-modules#readme",
+  "homepage": "https://github.com/jhoermann/vue-modulize#readme",
   "devDependencies": {
     "@types/jest": "^29.2.3",
     "@typescript-eslint/eslint-plugin": "^5.44.0",
