@@ -26,7 +26,7 @@ If you are using TypeScript a module definition interface could look like this:
 ```ts
 interface Module {
   name: string
-  exports: any // Exported parts of the module can be anything: Types, routes, Components etc.
+  exports: any // Exported parts of the module can be anything: Helpers, routes, components etc.
 }
 ```
 
