@@ -1,5 +1,5 @@
 {
-  "name": "vue-modules",
+  "name": "vue-modulize",
   "version": "0.0.1",
   "description": "Modularisation for Vue",
   "main": "dist/index.js",
