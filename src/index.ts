@@ -17,11 +17,11 @@ export const resetModules = () => modules.splice(0, modules.length)
 export const useModules = (moduleNames: string[]): Record<string, Module> => Object.fromEntries(
   moduleNames.map(moduleName => {
     const module = modules.find(registeredModule => registeredModule.name === moduleName)
-    
+
     if (!module) {
       throw new Error(`vue-modulize: module "${moduleName}" is not registered`)
     }
-    
+
     return [moduleName, module]
   }),
 )
