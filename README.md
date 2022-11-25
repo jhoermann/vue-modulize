@@ -1,6 +1,8 @@
 # vue-modulize
 > Modularisation for Vue
 
+[![npm](https://img.shields.io/npm/v/vue-modulize?color=red)](https://www.npmjs.com/package/vue-modulize) [![GitHub](https://img.shields.io/github/package-json/v/jhoermann/vue-modulize?color=blue&logo=github)](https://github.com/jhoermann/vue-modulize)
+
 - define which modules you want to use in your app
 - use other modules and their exports 
 
